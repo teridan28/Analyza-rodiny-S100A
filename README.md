@@ -1,0 +1,1 @@
+# Analyza-rodiny-S100A
