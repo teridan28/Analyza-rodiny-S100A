@@ -15,8 +15,8 @@ s100_subset <- data[grep("^S100A", data$Geneid), ]
 
 # Prevod jmen genu na HGNC ID
 hgnc_lookup <- data.frame(
-  Symbol = c("S100A1", "S100A2", "S100A3", "S100A4", "S100A5", "S100A6", "S100A7", "S100A8", "S100A9", "S100A10", "S100A11", "S100A12", "S100A13", "S100A14", "S100A16", "S100A7A", "S100A15A", "S100A7L2"),
-  HGNC_ID = c(10486, 10487, 10488, 10471, 10474, 10475, 10476, 10477, 10479, 10478, 10480, 10481, 10482, 10483, 14502, 30043, 30043, 31737))
+    Symbol = c("S100A1", "S100A2", "S100A3", "S100A4", "S100A5", "S100A6", "S100A7", "S100A8", "S100A9", "S100A10", "S100A11", "S100A12", "S100A13", "S100A14", "S100A16", "S100A7A", "S100A15A", "S100A7L2"),
+    HGNC_ID = c(10486, 10487, 10488, 10491, 10492, 10493, 10494, 10498, 10499, 10484, 10485, 10489, 10490, 12876, 14502, 30043, 30043, 31737))
 
 # Propojeni dat s HGNC ID
 vysledek <- merge(s100_subset[, c("Geneid", "tpm")], hgnc_lookup, by.x = "Geneid", by.y = "Symbol")
