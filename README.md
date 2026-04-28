@@ -14,4 +14,4 @@ Obrázek detailu genu **S100A10**. Šedé bloky představují namapované ready 
 
 ![Vizualizace S100A10](S100A10.png)
 
-*Komentář: V oblasti jsou patrné jasné exony s vysokým pokrytím, které přesně odpovídají anotaci genu. Přítomnost barevných variant v reads může indikovat nukleotidové neshody (SNP) v testovaném vzorku. To že jde o mutace je pravděpodobné s ohledem na původ vzorku z hepatocelularniho karcinomu. *
+V oblasti jsou patrné jasné exony s vysokým pokrytím, které přesně odpovídají anotaci genu. Přítomnost barevných variant v reads může indikovat nukleotidové neshody (SNP) v testovaném vzorku. To že jde o mutace je pravděpodobné s ohledem na původ vzorku z hepatocelularniho karcinomu.
